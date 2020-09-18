@@ -22,7 +22,7 @@ myFile.close()
 #Scrapping Data
 
 
-i=300
+i=81
 
 while True:
     url = "https://vidcloud9.com/movies?page=" + str(i)
