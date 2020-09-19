@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup, SoupStrainer
 import requests
 
 
-filename="Vidcloud9serials15"
+filename="Vidcloud9serials200"
 
 
 #Creating a file
@@ -24,7 +24,7 @@ myFile.close()
 
 
 
-i=15
+i=200
 
 while True:
     url = "https://vidcloud9.com/series?page=" + str(i)
