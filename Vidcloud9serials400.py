@@ -131,7 +131,7 @@ while True:
                             # make the htmll player file
 
                             
-                            myFile = open(str(filename)+'.csv', 'a+')
+                            myFile = open(str(filename)+'.csv', 'a+',encoding='utf8')
 
                             myFile.write("\n"+str(name)+","+str(image)+","+str(watchlink)+","+str(description)+","+str(imdb)+","+str(rt)+","+"cast :"+","+"timeline : "+","+"categories :"+","+"English")
 

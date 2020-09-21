@@ -6,12 +6,6 @@ import requests
 filename="Vidcloud9serials15"
 
 
-#Creating a file
-myFile = open(str(filename)+'.csv', 'w')
-
-myFile.write("Name"+","+"Image Link"+","+"Movie Watch link"+","+"Description"+","+"IMDB Ratings"+","+"Rotten Tomatoes Ratings"+","+"cast"+","+"Timeline"+","+"Categories"+","+"Language")
-
-myFile.close()
 
 
 
@@ -24,7 +18,7 @@ myFile.close()
 
 
 
-i=15
+i=79
 
 while True:
     url = "https://vidcloud9.com/series?page=" + str(i)
@@ -131,7 +125,7 @@ while True:
                             # make the htmll player file
 
                             
-                            myFile = open(str(filename)+'.csv', 'a+')
+                            myFile = open(str(filename)+'.csv', 'a+',encoding='utf8')
 
                             myFile.write("\n"+str(name)+","+str(image)+","+str(watchlink)+","+str(description)+","+str(imdb)+","+str(rt)+","+"cast :"+","+"timeline : "+","+"categories :"+","+"English")
 
