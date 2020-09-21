@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup, SoupStrainer
 import requests
 
 
-filename="dataset/comedy"
+filename="dataset/tv-show"
 
 i=1
 
@@ -21,7 +21,7 @@ counter = 0
 #Scrapping Data
 
 while True: 
-    url = "https://www1.123moviesto.to/allmovies/comedy/" + str(i)
+    url = "https://www1.123moviesto.to/allmovies/tv-show/" + str(i)
 
     page = requests.get(url)    
     data = page.text

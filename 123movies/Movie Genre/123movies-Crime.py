@@ -10,11 +10,11 @@ i=1
 counter = 0
 
 #Creating a file
-myFile = open(str(filename)+'.csv', 'w')
+#myFile = open(str(filename)+'.csv', 'w')
 
-myFile.write("Name"+","+"Image Link"+","+"Movie Watch link"+","+"Description"+","+"IMDB Ratings"+","+"Rotten Tomatoes Ratings"+","+"cast"+","+"Timeline"+","+"Categories"+","+"Language")
+#myFile.write("Name"+","+"Image Link"+","+"Movie Watch link"+","+"Description"+","+"IMDB Ratings"+","+"Rotten Tomatoes Ratings"+","+"cast"+","+"Timeline"+","+"Categories"+","+"Language")
 
-myFile.close()
+#myFile.close()
 
 
 
@@ -79,7 +79,7 @@ while True:
 
             myFile.write("\n"+str(name)+","+str(image)+","+str(watchlink)+","+str(description)+","+" "+","+" "+","+"cast :"+","+"timeline : "+","+"Action"+","+"English")
 
-            myFile.close()
+            #myFile.close()
     i=i+1
                     
 
